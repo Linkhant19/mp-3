@@ -14,12 +14,17 @@ const Subtitle = Styled.h2`
     color: #1BE2E6;
 `;
 
+const StyledDiv = Styled.div`
+    background-color: #2E0A75;
+    border: 2px solid #FBF5F3;
+`;
+
 export default function Header() {
     return (
-        <>
-            <Title>Lin Khant Ko</Title>
+        <StyledDiv>
+            <Title>LIN KHANT KO</Title>
             <Subtitle>Lin's Resume</Subtitle>
-        </>
+        </StyledDiv>
     );
 }
 

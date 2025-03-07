@@ -17,22 +17,26 @@ const StyledDiv = Styled.div`
 `;
 
 const StyledImage = Styled.img`
-    width: 40%;
+    width: 30vw;
+    height: 20vw;
     margin: 1vh 1vw;
 
     @media (max-width: 900px) {
-        width: 80%;
+        width: 60%;
+        height: auto;
+        margin-top: 70px;
     }
 `;
 
 const StyledSmallImage = Styled.img`
     width: 30%;
     margin-bottom: 50px;
+    margin: 0 2vw;
 `;
 
 const StyledP = Styled.p`
     margin: 0 2.8vw;
-    font-size: calc(10px + .8vw);
+    font-size: calc(10px + .7vw);
     color: #FBF5F3;
 `;
 
@@ -46,7 +50,7 @@ const StyledTitle = Styled.h1`
 const StyledPhotosContainer = Styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: 2vw;
 `;
 

@@ -15,21 +15,28 @@ const StyledDiv = Styled.div`
 `;
 
 const StyledImage = Styled.img`
-    width: 40%;
+    width: 30vw;
+    height: 20vw;
     margin: 1vh 1vw;
 
     @media (max-width: 900px) {
-        width: 80%;
+        width: 60%;
+        height: auto;
+        margin-bottom: 70px;
     }
 `;
 
 const StyledGif = Styled.img`
     width: 10%;
+
+    @media (max-width: 900px) {
+        width: 20%;
+    }
 `;
 
 const StyledP = Styled.p`
     margin: 0 2.8vw;
-    font-size: calc(10px + .8vw);
+    font-size: calc(10px + .7vw);
     color: #FBF5F3;
 `;
 

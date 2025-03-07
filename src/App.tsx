@@ -20,16 +20,21 @@ const StyledDiv = Styled.div`
   }
 `;
 
+const StyledWrapper = Styled.div`
+  width: 80vw;
+  margin: 0 auto;
+`;
+
 function Root() {
   return (
-    <>
+    <StyledWrapper>
       <Header />
       <StyledDiv>
         <Nav />
         <Main />
       </StyledDiv>
       <Footer />
-    </>
+    </StyledWrapper>
   );
 }
 
