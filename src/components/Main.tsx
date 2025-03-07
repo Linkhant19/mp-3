@@ -19,6 +19,7 @@ const StyledMain = Styled.main`
     height: 100vh;
     background-color: #150318;
     font-family: Times New Roman, serif;
+    margin-bottom: 50px;
 
     @media (max-width: 900px) {
         width: 100%;

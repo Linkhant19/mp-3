@@ -7,26 +7,34 @@ const StyledDiv = Styled.div`
     display: flex;
     flex-direction: row;
     padding: 2vh 2vw;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const StyledImage = Styled.img`
     width: 40%;
     margin: 1vh 1vw;
+
+    @media (max-width: 900px) {
+        width: 80%;
+    }
 `;
 
 const StyledGif = Styled.img`
     width: 10%;
-    margin: 1vh 1vw;
 `;
 
 const StyledP = Styled.p`
     margin: 0 2.8vw;
-    font-size: calc(4px + .8vw);
+    font-size: calc(10px + .8vw);
     color: #FBF5F3;
 `;
 
 const StyledTitle = Styled.h1`
-    margin: 2vw 0;
+    margin-top: 50px;
     text-align: center;
     font-size: calc(25px + 2.5vw);
     color: #FBF5F3;
